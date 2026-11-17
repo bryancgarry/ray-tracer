@@ -1,0 +1,22 @@
+# macOS and editor files
+.DS_Store
+*.code-workspace
+
+# Build output and generated IDE projects
+build/
+build_xcode/
+build_win/
+cmake-build-*/
+
+# Third-party libraries (see README for setup)
+lib/
+include/
+
+# Course submission archives
+*.zip
+
+# Course sample models (not used by this project)
+model/
+
+# Raw screenshot (a curated one lives in docs/)
+RayTracerScene_Screenshot.png
